@@ -1,0 +1,22 @@
+Opgaver:
+	1) opret et test repo, 
+	2) Clone det til jeres maskine, 
+	3) lav et tekst dokument og fyld det med noget tekst, 
+	4) commit med en besked om hvad i har gjort,
+	5) push.
+
+	6) opret en branch er jeres test repo, kald den evt work eller development
+
+	7) ret i tekstfilen. commit med besked, push.
+
+	8) lav et pull request på de 2 branches ( gøres i på githubsiden i browseren )
+
+	9) merge de 2 branches. ( via github siden i browseren )
+
+til dem der har nemt ved det:
+
+	6) github ifm visual studio
+
+	7) diff
+
+	8) tags
