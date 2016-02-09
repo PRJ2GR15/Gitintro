@@ -1,0 +1,50 @@
+Basic git:
+
+1. Hvad er git:
+	versions kontrol - giver mulighed for at flere kan arbejde på samme kode, og man kan se hvad der er ændret fra
+				version til version.
+	Fordele:	 - Undgår tab af filer, alle kan altid hente den seneste version, vi kan se hvem der har lavet hvad
+	ulemter:	 - et lidt andet workflow end de fleste normalt bruger.
+2. Repo:
+	hvad er et repo: - et repo er et samlet sted med kode, dokumenter eller andet der vedrører en specifik opgave. 
+			 - der kan være flere versioner af den samme kode under et repo, flere kan arbejde i det samme repo, men
+				bør i denne situation benytte sig af branches
+3. Branches: 		 
+	hvad er branches - branches er forskellige udgaver af den samme kode, der kan være tale om udvikler versioner, release version osv.
+				
+			 - Branches i brug til projekter: i open source projekter vil man ofte se at man laver en ny branch hver gang man arbejder på en ændring
+				når ændringen er færdig laver man det der hedder en pull eller merge request hvor efter man kan merge koden over i den samlede kode.
+	
+	base: man kan lave en branch eller et repo på basis af et andet, hvorved man kan arbejde på koden uden at der opstår konflikter med andres arbejde.
+4. Pull
+	Ved et pull trække du alt indholdet ud fra et repo og til din lokale maskine.
+5. Push 
+	ved push erstatter du den eksisterende version i et repo med den lokale version du har liggende, dette vil kunne overskive andres ændringer!
+6. Merge
+	ved et merge løser man eventuelle konflikter mellem kode og forener 2 branches med hinanden derved ødelægger man ikke hinandes arbejde og kan fint arbejde 2
+	eller flere på forskellige features på et projekt hvorefter man forener det hele i master branchen.
+Opgaver:
+
+
+
+	1) opret et test repo, 
+	2) Clone det til jeres maskine, 
+	3) lav et tekst dokument og fyld det med noget tekst, 
+	4) commit med en besked om hvad i har gjort,
+	5) push.
+
+	6) opret en branch er jeres test repo, kald den evt work eller development
+
+	7) ret i tekstfilen. commit med besked, push.
+
+	4) lav et pull request på de 2 branches ( gøres i på githubsiden i browseren )
+
+	5) merge de 2 branches. ( via github siden i browseren )
+
+til dem der har nemt ved det:
+
+	6) github ifm visual studio
+
+	7) diff
+
+	8) tags
